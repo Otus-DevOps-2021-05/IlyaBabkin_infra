@@ -30,3 +30,9 @@ yc compute instance create \
   --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 \
   --metadata serial-port-enable=1 \
   --metadata-from-file user-data=metadata.yml
+
+  Packer homework done:
+
+  Packer srcipts added
+  VM made
+  reddit url - http://178.154.206.223:9292/
