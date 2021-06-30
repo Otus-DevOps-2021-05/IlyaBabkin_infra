@@ -36,3 +36,7 @@ yc compute instance create \
   Packer srcipts added
   VM made
   reddit url - http://178.154.206.223:9292/
+
+  Terraform homework #1 added
+  VM made
+  reddit app - http://217.28.229.109:9292/
