@@ -1,11 +1,3 @@
-terraform {
-  required_providers {
-    yandex = {
-      source = "yandex"
-    }
-  }
-}
-
 resource "yandex_compute_instance" "db" {
   name = "reddit-db"
   labels = {
