@@ -1,5 +1,5 @@
 {
-	"key": "/home/ilya/Otus/key,json",
+	"key": "./key.json.example",
 	"folder_id": "b1g4vo9ldq48t1tn0mu2",
 	"image": "ubuntu-1604-lts"
 }
