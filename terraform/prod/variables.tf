@@ -25,3 +25,11 @@ variable "service_account_key_file" {
 variable "private_key" {
   description = "Private key for provisioners"
 }
+variable "app_image_id" {
+  description = "Disk image for app"
+  default = "reddit-app-base"
+}
+variable "db_image_id" {
+  description = "Disk image for db"
+  default = "reddit-db-base"
+}

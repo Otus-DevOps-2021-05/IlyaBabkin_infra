@@ -1,0 +1,25 @@
+{
+  "builders": [
+    {
+      "type": "yandex",
+      "service_account_key_file": "/home/ilya/Otus/key.json",
+      "folder_id": "b1g4vo9ldq48t1tn0mu2",
+      "source_image_family": "ubuntu-1604-lts",
+      "image_name": "reddit-db-{{timestamp}}",
+      "image_family": "reddit-base",
+      "ssh_username": "ubuntu",
+      "platform_id": "standard-v2",
+      "zone": "ru-central1-a",
+      "subnet_id": "e9bl1m1o9dn0p7mbgf9a",
+      "use_ipv4_nat": "true"
+    }
+  ],
+  "provisioners": [
+
+    {
+      "type": "shell",
+      "script": "scripts/install_mongodb.sh",
+      "execute_command": "sudo {{.Path}}"
+    }
+  ]
+}

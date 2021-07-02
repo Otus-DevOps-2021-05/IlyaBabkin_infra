@@ -40,3 +40,7 @@ yc compute instance create \
   Terraform homework #1 added
   VM made
   reddit app - http://217.28.229.109:9292/
+
+  Terraform homework #2 added :
+  	Terraform modules (app, db) added
+  	Terraform stage and PROD added
