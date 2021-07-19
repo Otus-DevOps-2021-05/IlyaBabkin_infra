@@ -44,3 +44,7 @@ yc compute instance create \
   Terraform homework #2 added :
   	Terraform modules (app, db) added
   	Terraform stage and PROD added
+
+  Ansible homework #1 added :
+  	Ansible was installed
+  	first-playbook was created
