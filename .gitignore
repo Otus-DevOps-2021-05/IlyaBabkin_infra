@@ -1,5 +1,7 @@
 variables.json
 key.json
+ubuntu
+ubuntu.pub
 *.tfstate
 *.tfstate.*.backup
 *.tfstate.backup
