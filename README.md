@@ -48,3 +48,8 @@ yc compute instance create \
   Ansible homework #1 added :
   	Ansible was installed
   	first-playbook was created
+  Ansible homework #2 added :
+
+  	Playbooks for app, db was created
+  	Provisioners for Packer were Updated
+  	New Terraform environment was created
