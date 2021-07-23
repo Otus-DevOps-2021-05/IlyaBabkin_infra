@@ -18,7 +18,7 @@
 
     {
       "type": "ansible",
-      "playbook_file": "/home/ilya/Otus/IlyaBabkin_infra/ansible/packer_db.yml"
+      "playbook_file": "ansible/packer_db.yml"
     }
   ]
 }
