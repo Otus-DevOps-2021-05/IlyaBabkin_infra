@@ -51,3 +51,14 @@ resource "yandex_compute_instance" "app" {
 #    script = "files/deploy.sh"
 #  }
 }
+resource "yandex_lb_network_load_balancer" "foo" {
+  name = "my-network-load-balancer"
+
+  listener {
+    name = "my-listener"
+    port = 8080
+    external_address_spec {
+      ip_version = "ipv4"
+    }
+  }
+}

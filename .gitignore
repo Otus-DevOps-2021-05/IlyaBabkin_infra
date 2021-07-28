@@ -8,3 +8,5 @@ ubuntu.pub
 *.tfvars
 .terraform/
 *.retry
+jdauphant.nginx
+vault.key
