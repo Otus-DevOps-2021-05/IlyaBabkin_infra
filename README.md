@@ -53,3 +53,10 @@ yc compute instance create \
   	Playbooks for app, db was created
   	Provisioners for Packer were Updated
   	New Terraform environment was created
+
+  Ansible homewework #3 added :
+
+  	Created roles
+  	Added Environments
+  	Using Nginx
+  	Using Ansible Vault
